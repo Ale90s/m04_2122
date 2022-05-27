@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8"/>	
+	<title>Banc</title>
+        
+</head>
+
+<body>
+	<strong>Crèdit Bancari</strong>
+	<form method=POST action="_3banc.php"><br/>
+            
+		<input type="hidden" name="operacio" value="00005"> <!-- Input per passar dades ocultes per l'usuari -->
+                
+		Quin d'aquests paquetes vols?<br/><br/>
+		<input name="valor" type="radio" value=1000/>Paquet de 1.000 amb el 5.0% d'interés<br/>
+		<input name="valor" type="radio" value=5000/>Paquet de 5.000 amb el 6.5% d'interés<br/>
+		<input name="valor" type="radio" value=10000/>Paquet de 10.000 amb el 8.0% d'interés<br/>
+		<br/>
+                
+		Quant vols pagar al mes?
+		<input name="pagmes" type="text" size=5 /><br/><br/>
+                
+		<input type="submit" value="Calcular"/>
+                
+	</form>
+	
+</body>
+
+</html>
