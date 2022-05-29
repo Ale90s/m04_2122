@@ -1,7 +1,7 @@
 <?php
 
 if ($_POST["user"] == "aalgarra" and $_POST["password"] == 123) {
-    echo "Valid user";
+    echo "<h1>Valid user</h1>";
 } else {
-    echo "Invalid user";
+    echo "<h1>Invalid user</h1>";
 }
