@@ -175,7 +175,16 @@ span.imagen img {
 /*          QUINTA PAGINA        */
 
 form {
-    margin: auto;
-    width: 6%;
-    padding: 10px;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.footerLogin {
+    height: 70px;
+    background-color: #1C3037;
+    width: 100%;
+    font-size: 75%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
 }
